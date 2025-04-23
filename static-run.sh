@@ -6,6 +6,7 @@ if [[ -z "$INGEST_PATH" ]]; then
 fi
 
 startTime=$(date +%s%3N)
+echo "Start at ${startTime}"
 
 commitMessage=$(git log -1 --pretty=%s)
 
