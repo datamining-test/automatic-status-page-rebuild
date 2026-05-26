@@ -23,3 +23,7 @@ jobs:
         run: chmod +x static-run.sh && ./static-run.sh     
         env: 
           INGEST_PATH: ${{ secrets.INGEST_PATH }}
+          WORKER_URL: ${{ secrets.WORKER_URL }}
+          AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
+          GEEKBENCH_EMAIL_KEY: ${{ secrets.GEEKBENCH_EMAIL_KEY }}
+          GEEKBENCH_KEY: ${{ secrets.GEEKBENCH_KEY }}
