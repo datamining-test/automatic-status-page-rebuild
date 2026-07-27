@@ -27,3 +27,5 @@ jobs:
           AUTH_TOKEN: ${{ secrets.AUTH_TOKEN }}
           GEEKBENCH_EMAIL_KEY: ${{ secrets.GEEKBENCH_EMAIL_KEY }}
           GEEKBENCH_KEY: ${{ secrets.GEEKBENCH_KEY }}
+          GEEKBENCH7_EMAIL_KEY: ${{ secrets.GEEKBENCH7_EMAIL_KEY }}
+          GEEKBENCH7_KEY: ${{ secrets.GEEKBENCH7_KEY }}
