@@ -13,10 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-        name: Checkout Repository
-
-      - name: Run  Script and push changes
-        run: chmod +x run.sh && ./run.sh   && df -h && pwd && df -h .
+        name: Checkout Repository.
       - name: build
         run: chmod +x static-run.sh && ./static-run.sh     
         env: 
